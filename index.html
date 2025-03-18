@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FBT - Coming Soon</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: black;
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Header */
+    header {
+      padding: 20px;
+      font-size: 26px;
+      font-weight: bold;
+      text-transform: uppercase;
+      animation: fadeIn 1.5s ease-in-out forwards;
+    }
+
+    /* Main Content */
+    main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: 65px;
+      opacity: 0;
+      animation: fadeIn 1.5s ease-in-out forwards;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-top: 20px;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+
+    i {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 28px;
+      margin-top: 15px;
+      opacity: 0;
+      animation: fadeIn 2.5s ease-in-out forwards;
+    }
+
+    /* Social Buttons */
+    .social-buttons {
+      margin-top: 30px;
+      display: flex;
+      gap: 15px;
+      opacity: 0;
+      animation: fadeIn 3s ease-in-out forwards;
+    }
+
+    .social-buttons a {
+      display: flex;
+      background-color: white;
+      color: black;
+      padding: 15px;
+      border-radius: 50%;
+      text-decoration: none;
+      font-size: 28px;
+      width: 70px;
+      height: 70px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s ease-in-out;
+    }
+
+    .social-buttons a:hover {
+      background-color: grey;
+      color: white;
+      transform: scale(1.1);
+    }
+
+    /* Footer */
+    footer {
+      padding: 15px;
+      font-size: 18px;
+      opacity: 0;
+      animation: fadeIn 3.5s ease-in-out forwards;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>FBT</header>
+
+  <!-- Main Content -->
+  <main>
+    <h1>FBT</h1>
+    <h2>Motivation:<br><i>"Stay Learning"</i></h2>
+    <h3>Launching Soon...</h3>
+
+    <!-- Social Media Buttons -->
+    <div class="social-buttons">
+      <a href="https://www.instagram.com/fbt_0312/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@fbt_0312" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.chess.com/member/frendybt" target="_blank"><i class="fas fa-chess"></i></a>
+      <a href="https://fbt-031211.my.canva.site" target="_blank"><i class="fas fa-globe"></i></a> <!-- Website -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 FBT. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
